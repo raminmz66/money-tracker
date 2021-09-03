@@ -2,9 +2,20 @@
   "name": "money-tracker",
   "version": "1.0.0",
   "description": "easily track your money, using this simple and great app",
-  "main": "index.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
   "scripts": {
-    "test": "npm run test"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -30,5 +41,23 @@
   "bugs": {
     "url": "https://github.com/raminmz66/money-tracker/issues"
   },
-  "homepage": "https://github.com/raminmz66/money-tracker#readme"
+  "homepage": "https://github.com/raminmz66/money-tracker#readme",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
