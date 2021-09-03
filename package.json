@@ -1,0 +1,34 @@
+{
+  "name": "money-tracker",
+  "version": "1.0.0",
+  "description": "easily track your money, using this simple and great app",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raminmz66/money-tracker.git"
+  },
+  "keywords": [
+    "money",
+    "expense",
+    "income",
+    "balance",
+    "transaction",
+    "budget",
+    "cash",
+    "debit",
+    "paypal",
+    "credit",
+    "asset",
+    "liability",
+    "wallet"
+  ],
+  "author": "ramin.mz66@gmail.com (Ramin Maazallahi)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/raminmz66/money-tracker/issues"
+  },
+  "homepage": "https://github.com/raminmz66/money-tracker#readme"
+}
