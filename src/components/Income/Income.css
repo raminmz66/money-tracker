@@ -1,3 +1,7 @@
-.income .transaction-summary .icon {
-    background: #d7f2ea;
+.income {
+    .transaction-summary {
+        .icon {
+            background: #d7f2ea;
+        }
+    }
 }

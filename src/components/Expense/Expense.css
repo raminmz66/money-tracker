@@ -1,3 +1,7 @@
-.expense .transaction-summary .icon {
-    background: #ffe7e0;
+.expense {
+    .transaction-summary {
+        .icon {
+            background: #ffe7e0;
+        }
+    }
 }

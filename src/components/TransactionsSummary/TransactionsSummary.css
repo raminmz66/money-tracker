@@ -1,28 +1,29 @@
 .transaction-summary {
     margin: 10px;
-}
 
-.transaction-summary .ant-card {
-    border-radius: 10px;
-}
+    .ant-card {
+        border-radius: 10px;
+        
+        &-body {
+            background: #fffcf6;
+            border-radius: 10px;
+        }
+    }
 
-.transaction-summary .ant-card-body {
-    background: #fffcf6;
-    border-radius: 10px;
-}
+    .icon {
+        display: flex;
+        background: #ffe7e0;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        border-radius: 10px;
+    }
 
-.transaction-summary .icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    border-radius: 10px;
-}
+    .ant-statistic {
+        line-height: 26px;
 
-.transaction-summary .ant-statistic-title {
-    margin: 0;
-}
-
-.transaction-summary .ant-statistic {
-    line-height: 26px;
+        &-title {
+            margin: 0;
+        }
+    }
 }
