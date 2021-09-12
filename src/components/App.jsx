@@ -1,12 +1,10 @@
-import { DatePicker } from "antd";
 import React from "react";
-
+import Expense from "./Expense/Expense";
 import 'antd/dist/antd.css';
-import TotalBalance from "./TotalBalance/TotalBalance";
 
 const App = () => {
     return (
-        <TotalBalance value={123456} />
+        <Expense />
     );
 }
 

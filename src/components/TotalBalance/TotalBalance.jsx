@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Statistic } from 'antd';
+import Amount from '../Amount/Amount';
 import './TotalBalance.css';
 
-const TotalBalance = ({value = 0, precision = 2, symbol = '$'}) => {
+const TotalBalance = ({value, precision, currency}) => {
     return (
         <div class="total-balance">
-            <Statistic title="Total Balance" value={value} precision={precision} prefix={symbol}></Statistic>
+            <Amount title="Total Balance" value={value} precision={precision} currency={currency}></Amount>
         </div>
     );
 }
@@ -16,5 +16,11 @@ export default TotalBalance;
 TotalBalance.propTypes = {
     value: PropTypes.number,
     precision: PropTypes.number,
-    symbol: PropTypes.string
+    currency: PropTypes.string
+}
+
+TotalBalance.defaultProps = {
+    value: 0,
+    precision: 2,
+    currency: '$'
 }
