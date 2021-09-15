@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 import TransactionsSummary from '../TransactionsSummary/TransactionsSummary';
 import Amount from '../Amount/Amount';
 import { ImArrowDown } from "react-icons/im";
-import './Income.css';
+import styles from './Income.module.css';
 
 const Income = ({value, precision, currency}) => {
     const icon = <ImArrowDown fontSize={20} color="#15a86a" />;
     const amount = <Amount title="Income" value={value} precision={precision} currency={currency} />
     return (
         <div class='income'>
-            <TransactionsSummary icon={icon} amount={amount}/>
+            <TransactionsSummary icon={icon} amount={amount} iconClassName={styles.icon}/>
         </div>
     )
 }
