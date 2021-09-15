@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Amount from '../Amount/Amount';
-import './TotalBalance.css';
+import styles from './TotalBalance.module.css';
 
 const TotalBalance = ({value, precision, currency}) => {
     return (
-        <div class="total-balance">
+        <div class={styles.container}>
             <Amount title="Total Balance" value={value} precision={precision} currency={currency}></Amount>
         </div>
     );

@@ -1,0 +1,28 @@
+.container {
+    margin: 10px;
+
+    :global .ant-card {
+        border-radius: 10px;
+        
+        &-body {
+            background: #fffcf6;
+            border-radius: 10px;
+        }
+    }
+
+    :global .ant-statistic {
+        line-height: 26px;
+
+        &-title {
+            margin: 0;
+        }
+    }
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+}
