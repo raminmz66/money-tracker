@@ -1,0 +1,6 @@
+.container {
+    :global .ant-empty-image {
+        height: 150px;
+        margin-bottom: 0;
+    }
+}
