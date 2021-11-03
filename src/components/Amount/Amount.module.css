@@ -1,0 +1,7 @@
+.container {
+    :global {
+        .ant-statistic, .ant-statistic-content {
+            color: inherit;
+        }
+    }
+}
