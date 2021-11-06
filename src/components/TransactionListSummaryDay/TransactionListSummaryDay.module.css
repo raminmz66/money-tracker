@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f7f7f7;
+    color: #404040;
+}
+
+.date {
+    
+}
+
+.amount {
+    
+}

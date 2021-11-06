@@ -29,7 +29,7 @@ const Date = ({value, format, displayDay}) => {
 export default Date;
 
 Date.propTypes = {
-    value: string.isRequired,
+    value: PropTypes.string.isRequired,
     format: PropTypes.oneOf(Object.keys(formats)),
     displayDay: PropTypes.bool
 }

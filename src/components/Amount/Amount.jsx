@@ -1,10 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Statistic } from 'antd';
+import styles from './Amount.module.css'
 
 const Amount = ({value, precision, currency, title}) => {
     return (
-        <Statistic value={value} precision={precision} prefix={currency} title={title}/>
+        <div class={styles.container}>
+            <Statistic value={value} precision={precision} prefix={currency} title={title}/>
+        </div>
     );
 }
 
